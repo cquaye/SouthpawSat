@@ -11,7 +11,7 @@ resource "google_compute_network" "larry" {
 }
 
 
-resource "google_compute_network" "luke" {
+/*resource "google_compute_network" "luke" {
   name                            = "luke"
   routing_mode                    = "REGIONAL"
   auto_create_subnetworks         = false
@@ -27,4 +27,4 @@ resource "google_compute_network" "tango" {
   mtu                             = 1460
   delete_default_routes_on_create = false
 
-}
+}*/
